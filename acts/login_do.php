@@ -15,7 +15,11 @@ $sql = 'SELECT * FROM user '.
 $res = $db->getArray($sql);
 // teeme päringu tulemuse kontroll
 if($res == false){
+    //sessiooni jaoks loome veateate
+    $sess->set('error', 'Probleem sisselogimisega');
     // siis tuleb suunata kasutaja sisselogimisvormi tagasi
+    $link = $http->getLink(array('act' => 'login'));
+    $http->redirect($link);
 } else {
     // sisse tuleb avada kasutajale sessiooni
     $sess->createSession($res[0]);
