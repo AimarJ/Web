@@ -12,5 +12,12 @@ $_trans = array(
     'Lehe peamenüü' => 'Page menu',
     'eesti' => 'estonian',
     'inglise' => 'english',
-    'vene' => 'russian'
+    'vene' => 'russian',
+    'Logi välja' => 'Logout',
+    'Kasutajanimi' => 'Username',
+    'Parool' => 'Password',
+    'Logi sisse' => 'Login',
+    'Viga sisselogimisel' => 'Login error',
+    'Kasutaja' => 'User',
 );
+?>
