@@ -17,3 +17,4 @@ if(file_exists($fn) and is_file($fn) and is_readable($fn)){
     $http->set('act', DEFAULT_ACT); // paneme act väärtuseks default - act=default
     require_once $fn;
 }
+?>
