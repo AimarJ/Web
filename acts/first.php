@@ -6,4 +6,5 @@
  * Time: 9:47
  */
 $main_tmpl->set('content', 'Esimene leht');
+
 ?>
