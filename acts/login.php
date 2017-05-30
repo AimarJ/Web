@@ -18,3 +18,4 @@ $link = $http->getLink(array('act' => 'login_do'));
 $login->set('link', $link);
 // paneme sisu template sisse
 $main_tmpl->set('content', $login->parse());
+jdcsdjvo
