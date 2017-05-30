@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a7a07465-5b2c-4e4d-b0a1-3008539d37e8" name="web" url="http://138.68.68.130/~aimar.kauts/">
+        <fileTransfer host="138.68.68.130" port="22" rootFolder="/home/aimar.kauts/public/" accessType="SFTP" password="dfd0dfcfdfc8df9ddfc4dfcbdffadfcf" username="aimar.kauts">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
