@@ -22,7 +22,6 @@ define('ROLE_USER', 2);
 
 // võtame kasutusele vajalikud abifailid
 require_once LIB_DIR.'utils.php';
-require_once LIB_DIR.'trans.php'; // kutsume tõlkifunktsiooni asukoht
 require_once 'db_conf.php'; // loeme andmebaasi konfi sisse
 
 // võtame kasutusele vajalikud failid
