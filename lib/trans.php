@@ -24,3 +24,4 @@ function tr($txt){
     }
     return $txt;
 }
+?>
