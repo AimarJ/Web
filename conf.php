@@ -12,7 +12,6 @@ define('TMPL_DIR', 'tmpl/'); //tmpl kataloogi nime konstant
 define('LIB_DIR', 'lib/') //lib kataloogi nime konstant
 define('ACTS_DIR', 'acts/'); // acts kataloogi nime konstant
 define('LANG_DIR', 'lang/'); //lang kataloogi nime konstant
-
 define('DEFAULT_ACT', 'default'); // vaikimisi tegevuse faili nime konstant
 define('DEFAULT_LANG', 'et'); // vaikimisi keele määramine
 
@@ -49,7 +48,7 @@ $siteLangs = array(
 $lang_id = $http->get('lang_id');
 // kontrollime, kas selline keel keelemassiivis olemas
 if(!isset($siteLangs[$lang_id])){
-    // kui pole - määrame vaikimisi keel
+    // kui pole - määrame vaikimisi keele
     $lang_id = DEFAULT_LANG;
     $http->set('lang_id', $lang_id);
 }
