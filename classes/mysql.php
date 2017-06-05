@@ -25,7 +25,7 @@ class mysql
     }// konstruktor
 
     function connect(){
-        $this->conn = mysqli_connect($this->host, $this->user, $this->pass, $this->dbname);
+        $this->conn = mysqli_connect($this->conn, $this->user, $this->pass, $this->dbname);
         if(mysqli_connect_error()) {
             echo 'Viga andmebaasiserveriga ühenduses<br />';
             exit;
