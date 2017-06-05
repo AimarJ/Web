@@ -5,5 +5,5 @@
  * Date: 12.04.2017
  * Time: 9:47
  */
-$main_tmpl->set('content', 'Esimene leht');
+$main_tmpl->set('content', tr('Esimene leht'));
 ?>
