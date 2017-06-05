@@ -16,7 +16,7 @@ $res = $db->getArray($sql);
 // teeme päringu tulemuse kontroll
 if($res == false){
     //sessiooni jaoks loome veateate
-    $sess->set('error', 'Probleem sisselogimisega');
+    $sess->set('error', tr('Probleem sisselogimisega'));
     // siis tuleb suunata kasutaja sisselogimisvormi tagasi
     $link = $http->getLink(array('act' => 'login'));
     $http->redirect($link);
